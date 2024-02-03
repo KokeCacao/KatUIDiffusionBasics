@@ -1,0 +1,9 @@
+# In addition to .../KatUI/katzuki/requirements.txt, we need:
+accelerate
+einops
+diffusers
+transformers
+kokikit @ git+https://github.com/KokeCacao/kokikit/
+
+# kornia is for Zero-1-to-3 only
+kornia==0.6
